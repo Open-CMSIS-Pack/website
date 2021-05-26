@@ -1,0 +1,10 @@
+.asset-cache
+.sass-cache
+Gemfile.lock
+_site
+.jekyll-metadata
+assets/resized
+production.trustedfirmware.org
+staging.trustedfirmware.org
+.asset_pipeline
+.jekyll-cache
