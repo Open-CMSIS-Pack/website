@@ -7,7 +7,6 @@ Hosted in this repo are the markdown content files associated with the website. 
 This static Jekyll site is using the [`linaro-jekyll-theme`](https://github.com/linaro-marketing/linaro-jekyll-theme). Please take a moment to review the guides on the [theme's GitHub wiki](https://github.com/linaro-marketing/linaro-jekyll-theme/wiki).
 
 *****
-
 ## Contributing
 
 To make it easier to contribute to the content, Linaro provides a couple of Docker containers for building and checking the site. All you need is Docker installed on your computer and enough RAM and disc space.
