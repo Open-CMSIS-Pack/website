@@ -67,7 +67,7 @@ flow:
         # style: text-center
         text_content:
           text: |-
-            The Open-CMSIS-Pack project was established in April 2021. The roadmap is not finalized, but Linaro and project members are working on the following deliverables:
+            The Open-CMSIS-Pack project was established in April 2021. The roadmap is not finalized, but Linaro and project members expect to deliver the following:
 
             * Create command-line tools for project builds based on software packs
             * Create workflows and utilities for the verification of software packs
