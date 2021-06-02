@@ -26,8 +26,7 @@ exclude:
   - .asset-cache
   - _static-site
   - .sass-cache
-  - staging.open-cmsis-pack.org
-  - production.open-cmsis-pack.org
+  - www.open-cmsis-pack.org
 sass:
   style: compressed
   load_paths:
