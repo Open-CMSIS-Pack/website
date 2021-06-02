@@ -5,7 +5,7 @@
 # URL of static site
 url: "https://www.open-cmsis-pack.org"
 # Destination folder
-destination: production.open-cmsis-pack.org
+destination: www.open-cmsis-pack.org
 # Production boolean used in layouts / includes
 production: true
 # Google Analytics
