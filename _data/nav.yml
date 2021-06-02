@@ -1,6 +1,6 @@
 search:
   enabled: false
-  label: TrustedFirmware
+  label: OpenCMSISPack
 universal_nav: false
 brand:
   path: /assets/images/content/ARM2027_Open-CMSIS-Pack_Colour_V2.svg
