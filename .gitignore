@@ -5,6 +5,5 @@ _site
 .jekyll-metadata
 assets/resized
 production.open-cmsis-pack.org
-staging.open-cmsis-pack.org
 .asset_pipeline
 .jekyll-cache
