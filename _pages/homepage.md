@@ -92,6 +92,7 @@ flow:
             For more information about the Open-CMSIS-Pack project, explore the links below
 
             * [Current CMSIS-Pack specification hosted by Arm](https://arm-software.github.io/CMSIS_5/Pack/html/index.html)
+            * [https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/](https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/)
   - row: container_row
     sections:
       - format: title
