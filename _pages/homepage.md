@@ -26,17 +26,17 @@ flow:
           text: |-
             The Open-CMSIS-Pack project will deliver the infrastructure to integrate and manage software components and improve code reuse across embedded and IoT projects. The project is currently hosted and managed as an incubation project by Linaro in partnership with Arm, NXP and ST.
 
-            Software compatibility for component re-use has long been a challenge in the microcontroller space, especially for the IoT, which is much more diverse at the hardware level compared to PCs or the data center. Open-CMSIS-Pack will remove this complexity, delivering a standard for software component packaging and related foundation tools for validation, distribution, integration, management, and maintenance. 
-            
+            Software compatibility for component re-use has long been a challenge in the microcontroller space, especially for the IoT, which is much more diverse at the hardware level compared to PCs or the data center. Open-CMSIS-Pack will remove this complexity, delivering a standard for software component packaging and related foundation tools for validation, distribution, integration, management, and maintenance.
+
             ### What are CMSIS-Packs?
-            
+
             CMSIS-Pack is an effective packaging technology that currently supports close to 9,000 different microcontrollers. They provide a delivery mechanism for software components, device parameters, and evaluation board support. A Software Pack (file collection) includes:
 
             * Source code, header files, and software libraries
             * Documentation and source code templates
             * Device parameters along with startup code and programming algorithms
             * Example projects
-          
+
             The CMSIS-Pack system solves several problems:
 
             * It provides meta-data of files that relate to a software component. All files that belong to a software component can be identified and information about the original provider is preserved.
@@ -54,7 +54,7 @@ flow:
         # style: text-center
         text_content:
           text: |-
-            [Click here](https://arm-software.github.io/CMSIS_5/Pack/html/index.html) for further information about CMSIS-Packs.
+            [Click here](https://open-cmsis-pack.github.io/Open-CMSIS-Pack/main/html/index.html) for further information about CMSIS-Packs.
   - row: container_row
     sections:
       - format: title
@@ -91,7 +91,7 @@ flow:
           text: |-
             For more information about the Open-CMSIS-Pack project, explore the links below
 
-            * [Current CMSIS-Pack specification hosted by Arm](https://arm-software.github.io/CMSIS_5/Pack/html/index.html)
+            * [Open-CMSIS-Pack specification](https://open-cmsis-pack.github.io/Open-CMSIS-Pack/main/html/index.html)
             * [https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/](https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/)
   - row: container_row
     sections:
