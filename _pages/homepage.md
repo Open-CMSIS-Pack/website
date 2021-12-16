@@ -54,7 +54,7 @@ flow:
         # style: text-center
         text_content:
           text: |-
-            [Click here](https://open-cmsis-pack.github.io/Open-CMSIS-Pack/main/html/index.html) for further information about CMSIS-Packs.
+            [Click here](https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/index.html) for further information about CMSIS-Packs.
   - row: container_row
     sections:
       - format: title
@@ -91,7 +91,7 @@ flow:
           text: |-
             For more information about the Open-CMSIS-Pack project, explore the links below
 
-            * [Open-CMSIS-Pack specification](https://open-cmsis-pack.github.io/Open-CMSIS-Pack/main/html/index.html)
+            * [Open-CMSIS-Pack specification](https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/index.html)
             * [Open-CMSIS-Project page and meeting notes at Linaro](https://linaro.atlassian.net/wiki/spaces/CMSIS/overview)
             * [https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/](https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/)
   - row: container_row
