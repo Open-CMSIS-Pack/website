@@ -2,7 +2,7 @@ title: Open-CMSIS-Pack Project
 url: https://www.open-cmsis-pack.org
 baseurl: ""
 description: |-
-   The Open-CMSIS-Pack project delivers the infrastructure to integrate and manage software components and improve code reuse across microcontroller-based projects.
+  The Open-CMSIS-Pack project delivers the infrastructure to integrate and manage software components and improve code reuse across microcontroller-based projects.
 destination: _site
 permalink: /:categories/:title/
 theme: linaro-jekyll-theme
@@ -97,7 +97,7 @@ http2_resources:
     href: /assets/fonts/lato/Lato-regular.woff2
 google_analytics:
   enabled: false
-  code: G-HMVFZEVJSK
+  code: GTM-XXXX
   cookies:
     necessary:
       - name: cookieControl
@@ -130,11 +130,11 @@ avatar_placeholder: /assets/images/avatar-placeholder.jpg
 post_placeholder: /assets/images/content/linaro-logo.png
 # Social Media Links
 social_media_channels:
-  github: false 
-  linkedin: false 
-  facebook: false 
-  youtube: false 
-  twitter: false 
+  github: false
+  linkedin: false
+  facebook: false
+  youtube: false
+  twitter: false
   instagram: false
 disqus:
   enabled: false
