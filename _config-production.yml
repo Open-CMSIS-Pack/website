@@ -11,4 +11,4 @@ production: true
 # Google Analytics
 google_analytics:
   enabled: true
-  code: G-HMVFZEVJSK
+  code: GTM-TTJXKK6
