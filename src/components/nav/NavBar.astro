@@ -1,7 +1,7 @@
 ---
 import Dropdown from "./Dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
-import LinaroLogo from "../../assets/images/linaro-logo.png";
+import CmsisLogo from "../../assets/images/content/ARM2027_Open-CMSIS-Pack_Colour_V2.svg";
 import { Image } from "astro:assets";
 import { getEntry } from "astro:content";
 
@@ -14,7 +14,7 @@ const navData = await getEntry("data", "nav");
   <Astronav>
     <div class="flex w-full lg:w-auto items-center justify-between px-8">
       <a href="/" class="text-lg"
-        ><Image src={LinaroLogo} alt="Linaro Logo" width={60} height={60} /></a
+        ><Image src={CmsisLogo} alt="Linaro Logo" height={70} /></a
       >
       <div class="block lg:hidden">
         <MenuIcon class="w-4 h-4 text-white" />
@@ -25,23 +25,7 @@ const navData = await getEntry("data", "nav");
         {
           navData.data.map((item: any, index: number) => (
             <>
-              {item.children && (
-                <Dropdown
-                  title={item.label}
-                  children={item.children}
-                  lastItem={index === item.children.length - 1}
-                />
-              )}
-
-              {!item.children && (
-                <div class="my-5 relative">
-                  <div class="nav-hover transition">
-                    <a href={item.url} class="flex lg:px-3 py-2 text-inherit ">
-                      {item.label}
-                    </a>
-                  </div>
-                </div>
-              )}
+              <a href={item.url}>{item.label}</a>
             </>
           ))
         }

@@ -9,8 +9,9 @@ const pages = defineCollection({
       hero: z
         .object({
           title: z.string(),
+          description: z.string().optional(),
           background_image: image(),
-          style: z.string(),
+          style: z.string().optional(),
           inner_image: z
             .object({
               src: image(),

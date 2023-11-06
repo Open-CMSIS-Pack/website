@@ -200,6 +200,13 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "sections": {
+"image.md": {
+	id: "image.md";
+  slug: "image";
+  body: string;
+  collection: "sections";
+  data: InferEntrySchema<"sections">
+} & { render(): Render[".md"] };
 "md_content.md": {
 	id: "md_content.md";
   slug: "md_content";
