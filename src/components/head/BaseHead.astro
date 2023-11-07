@@ -6,9 +6,13 @@ import "@fontsource/lato";
 import "../../styles/global.scss";
 const GA_ID = import.meta.env.GA_ID;
 
-const { title = "", description = "", type = "website" } = Astro.props;
+const {
+  title = "The Open-CMSIS Project",
+  description = "The Open-CMSIS-Pack project will deliver the infrastructure to integrate and manage software components and improve code reuse across embedded and IoT projects. The project is currently hosted and managed as an incubation project by Linaro in partnership with Arm, NXP and ST.",
+  type = "website",
+} = Astro.props;
 
-const social_image = "";
+const social_image = "../../assets/images/social-media-image.png";
 ---
 
 <head>
