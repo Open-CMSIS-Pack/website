@@ -1,10 +1,7 @@
 ---
-import { Image } from "astro:assets";
 import { getEntry } from "astro:content";
 
 const members = await getEntry("data", "members");
-
-console.log(members);
 ---
 
 <div class="px-4 flex flex-col md:flex-row gap-2">
