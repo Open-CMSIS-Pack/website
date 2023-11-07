@@ -7,7 +7,7 @@ const footer = await getEntry("data", "footer");
 const { data }: any = footer;
 ---
 
-<footer class="justify-self-end mt-auto bg-neutral-500 text-white pt-8 px-2">
+<footer class="justify-self-end mt-auto bg-[#575757] text-white pt-8 px-2">
   <div class="flex flex-wrap flex-row items-center justify-center gap-4">
     <a
       href="https://github.com/Linaro/linaro-astro-template"
@@ -17,9 +17,7 @@ const { data }: any = footer;
     </a>
   </div>
   <ul class="flex flex-wrap flex-row items-center justify-center gap-4 my-6">
-    <span class="text-center">
-      Copyright © {new Date().getFullYear()}
-    </span>
+    <span class="text-center"> Copyright © 2022 Linaro Limited</span>
     {
       data.company_links.map((link: any) => (
         <li>
@@ -32,28 +30,6 @@ const { data }: any = footer;
         </li>
       ))
     }
-    <div
-      class="flex flex-row justify-center items-center flex-wrap h-full gap-8 ml-4 before:content-['•']"
-    >
-      <a href="https://twitter.com/linaroorg" class="h-full">
-        <Icon name="mdi:twitter" class="w-5 text-white" />
-      </a>
-      <a href="https://www.facebook.com/LinaroOrg" class="h-full">
-        <Icon name="mdi:facebook" class="w-5 text-white" />
-      </a>
-      <a href="https://www.linkedin.com/company/1026961" class="h-full">
-        <Icon name="mdi:linkedin" class="w-5 text-white" />
-      </a>
-      <a href="https://instagram.com/linaroorg">
-        <Icon name="mdi:instagram" class="w-5 text-white" />
-      </a>
-      <a href="https://www.youtube.com/linaroorg">
-        <Icon name="mdi:youtube" class="w-5 text-white" />
-      </a>
-      <a href="https://github.com/Linaro">
-        <Icon name="mdi:github" class="w-5 text-white" />
-      </a>
-    </div>
   </ul>
 
   <div class="flex flex-row justify-center my-4">

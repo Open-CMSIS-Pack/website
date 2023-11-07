@@ -1,0 +1,22 @@
+---
+import { Image } from "astro:assets";
+import { getEntry } from "astro:content";
+
+const members = await getEntry("data", "members");
+
+console.log(members);
+---
+
+<div class="px-4 flex flex-col md:flex-row gap-2">
+  {
+    members?.data.map((member: any) => (
+      <a href={member.url} class="flex items-center">
+        <img
+          class="w-[50%] mx-auto justify-center align-middle"
+          src={member.image}
+          alt={member.name}
+        />
+      </a>
+    ))
+  }
+</div>

@@ -5,12 +5,12 @@ const pages = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
-      description: z.string(),
+      description: z.string().optional(),
       hero: z
         .object({
           title: z.string(),
           description: z.string().optional(),
-          background_image: image(),
+          background_image: image().optional(),
           style: z.string().optional(),
           inner_image: z
             .object({
@@ -24,13 +24,15 @@ const pages = defineCollection({
         .array(
           z.object({
             row: reference("rows"),
-            sections: z.array(
-              z
-                .object({
-                  component: reference("sections"),
-                })
-                .catchall(z.any())
-            ),
+            sections: z
+              .array(
+                z
+                  .object({
+                    component: reference("sections"),
+                  })
+                  .catchall(z.any())
+              )
+              .optional(),
           })
         )
         .optional(),
@@ -53,11 +55,12 @@ const sections = defineCollection({
 
 const data = defineCollection({
   type: "data",
-  schema: z.any(),
+  schema: ({ image }) =>
+    z
+      .array(z.object({ image: image(), alt: z.string(), url: z.string() }))
+      .or(z.any()),
 });
 
-// Expose your defined collection to Astro
-// with the `collections` export
 export const collections = {
   pages,
   rows,

@@ -1,5 +1,4 @@
 ---
-import Dropdown from "./Dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import CmsisLogo from "../../assets/images/content/ARM2027_Open-CMSIS-Pack_Colour_V2.svg";
 import { Image } from "astro:assets";
@@ -13,11 +12,11 @@ const navData = await getEntry("data", "nav");
 >
   <Astronav>
     <div class="flex w-full lg:w-auto items-center justify-between px-8">
-      <a href="/" class="text-lg"
+      <a href="/" class="text-lg text-[#575757]"
         ><Image src={CmsisLogo} alt="Linaro Logo" height={70} /></a
       >
       <div class="block lg:hidden">
-        <MenuIcon class="w-4 h-4 text-white" />
+        <MenuIcon class="w-4 h-4 text-[#575757]" />
       </div>
     </div>
     <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 font-medium">

@@ -18,7 +18,7 @@ flow:
         style: text-center font-weight-bold
         title_content:
           style: font-weight-bold
-          size: h2
+          size: h1
           text: Overview
       - component: text
         # style: text-center
@@ -47,11 +47,7 @@ flow:
             CMSIS-Packs can be used for multiple purposes:
 
             <img class='mx-auto' src="/CMSIS-PackDiagram.png" alt="CMSIS-Packs diagram" width='60%' height="300">
-      # - component: image
-      #   style: #
-      #   alt: CMSIS-Packs diagram
-      #   size: 8
-      #   path: ../../assets/images/content/CMSIS-PackDiagram.png
+
       - component: text
         # style: text-center
         text_content:
@@ -63,7 +59,7 @@ flow:
         style: text-center font-weight-bold
         title_content:
           style: font-weight-bold
-          size: h2
+          size: h1
           text: Timeline
       - component: text
         # style: text-center
@@ -84,7 +80,7 @@ flow:
         style: text-center font-weight-bold
         title_content:
           style: font-weight-bold
-          size: h2
+          size: h1
           text: Resources
       - component: text
         style: #
@@ -101,7 +97,7 @@ flow:
         style: text-center font-weight-bold
         title_content:
           style: font-weight-bold
-          size: h2
+          size: h1
           text: Get Involved
       - component: text
         style: #
@@ -114,9 +110,8 @@ flow:
       - component: title
         style: text-center font-weight-bold
         title_content:
-          style: font-weight-bold
-          size: h3
+          style: font-weight-bold text-[28px]
+          size: h2
           text: Our Members
-      # - component: custom_include
-      #   source: members.html
+      - component: custom_include
 ---

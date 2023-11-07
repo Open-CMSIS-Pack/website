@@ -182,6 +182,20 @@ declare module 'astro:content' {
   collection: "pages";
   data: InferEntrySchema<"pages">
 } & { render(): Render[".md"] };
+"contact.md": {
+	id: "contact.md";
+  slug: "/contact/";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".md"] };
+"cookies.md": {
+	id: "cookies.md";
+  slug: "/cookies";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".md"] };
 "homepage.md": {
 	id: "homepage.md";
   slug: "";
@@ -200,9 +214,16 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "sections": {
-"image.md": {
-	id: "image.md";
-  slug: "image";
+"cookie_manager.md": {
+	id: "cookie_manager.md";
+  slug: "cookie_manager";
+  body: string;
+  collection: "sections";
+  data: InferEntrySchema<"sections">
+} & { render(): Render[".md"] };
+"custom_include.md": {
+	id: "custom_include.md";
+  slug: "custom_include";
   body: string;
   collection: "sections";
   data: InferEntrySchema<"sections">
@@ -236,6 +257,11 @@ declare module 'astro:content' {
 		"data": {
 "footer": {
 	id: "footer";
+  collection: "data";
+  data: InferEntrySchema<"data">
+};
+"members": {
+	id: "members";
   collection: "data";
   data: InferEntrySchema<"data">
 };

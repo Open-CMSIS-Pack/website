@@ -1,0 +1,16 @@
+- name: Arm
+  image: ../../assets/images/members/arm.jpg
+  type: general
+  url: https://www.arm.com/
+- name: Linaro
+  image: ../../assets/images/members/Linaro.jpg
+  type: general
+  url: https://www.linaro.org/
+- name: ST
+  image: ../../assets/images/members/ST.jpg
+  type: general
+  url: https://www.st.com/content/st_com/en.html
+- name: NXP,
+  image: ../../assets/images/members/nxp.jpg
+  type: general
+  url: https://www.nxp.com/
