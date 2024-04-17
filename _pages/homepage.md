@@ -8,7 +8,7 @@ jumbotron:
   title: Open-CMSIS-Pack
   description: >
     Simplifying IoT Workflows and Lifecycle Management
-  image: /assets/images/content/iot_planet_under_2mb.jpg
+  # image: /assets/images/content/iot_planet_under_2mb.jpg
   # inner-image: /assets/images/content/TrustedFirmware-Logo_vertical-white.png
   inner_class: text-center
 flow:
@@ -24,13 +24,13 @@ flow:
         # style: text-center
         text_content:
           text: |-
-            The Open-CMSIS-Pack project will deliver the infrastructure to integrate and manage software components and improve code reuse across embedded and IoT projects. The project is currently hosted and managed as an incubation project by Linaro in partnership with Arm, NXP and ST.
+            The Open-CMSIS-Pack project provides tools, methods, and infrastructure to integrate and manage software components and improve code reuse across embedded and IoT projects. The project is currently hosted and managed as an incubation project by Linaro in partnership with Arm, NXP and STMicroelectronics.
 
-            Software compatibility for component re-use has long been a challenge in the microcontroller space, especially for the IoT, which is much more diverse at the hardware level compared to PCs or the data center. Open-CMSIS-Pack will remove this complexity, delivering a standard for software component packaging and related foundation tools for validation, distribution, integration, management, and maintenance.
+            Software compatibility for component re-use has long been a challenge in the microcontroller space, especially for the IoT, which is much more diverse at the hardware level compared to PCs or the data center. Open-CMSIS-Pack removes this complexity, delivering a standard for software component packaging and related foundation tools for validation, distribution, integration, management, and maintenance.
 
             ### What are CMSIS-Packs?
 
-            CMSIS-Pack is an effective packaging technology that currently supports close to 9,000 different microcontrollers. They provide a delivery mechanism for software components, device parameters, and evaluation board support. A Software Pack (file collection) includes:
+            CMSIS-Pack is a packaging technology that supports more than [10,000 different microcontrollers](https://www.keil.arm.com/devices/). Packs provide a delivery mechanism for software components, device parameters, and evaluation board support. A software pack (file collection) includes:
 
             * Source code, header files, and software libraries
             * Documentation and source code templates
@@ -44,39 +44,11 @@ flow:
             * Software component providers can specify the interfaces and relationship to other software components.
             * The meta-data of a software component can include dependency information for toolchains, devices, and processors which simplifies the integration into application programs.
 
-            CMSIS-Packs can be used for multiple purposes:
-      - format: image
-        style: #
-        alt: CMSIS-Packs diagram
-        size: 8
-        path: /assets/images/content/CMSIS-PackDiagram.png
-      - format: text
-        # style: text-center
-        text_content:
-          text: |-
-            [Click here](https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/index.html) for further information about CMSIS-Packs.
-  - row: container_row
-    sections:
-      - format: title
-        style: text-center font-weight-bold
-        title_content:
-          style: font-weight-bold
-          size: h2
-          text: Timeline
-      - format: text
-        # style: text-center
-        text_content:
-          text: |-
-            The Open-CMSIS-Pack project was established in April 2021. The roadmap is not finalized, but Linaro and project members expect to deliver the following:
+            Refer to the [Open-CMSIS-Pack specification](https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/index.html) for more information.
 
-            * Create command-line tools for project builds based on software packs
-            * Create workflows and utilities for the verification of software packs
-            * Extend the pack description format for better usability across the complete workflow
-            * Define processes that simplify the creation of software packs from other sources, such as CMake based projects
-            * Develop the concept of a software layer that defines a collection of pre-configured software components
-            * Organize the taxonomies of standard APIs that are essential for re-useable software stacks
+            ### What is the CMSIS-Toolbox?
 
-
+            The CMSIS-Toolbox provides command-line tools for project creation and build of embedded applications utilizing CMSIS-Packs. It supports multiple compilation tools. It also helps you with software pack creation, maintenance, and distribution utilizing the CMSIS-Pack format.
   - row: container_row
     sections:
       - format: title
@@ -94,6 +66,9 @@ flow:
             * [Open-CMSIS-Pack specification](https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/index.html)
             * [Open-CMSIS-Project page and meeting notes at Linaro](https://linaro.atlassian.net/wiki/spaces/CMSIS/overview)
             * [https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/](https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/)
+            * [List of publicly available CMSIS-Packs](https://www.keil.arm.com/packs/)
+            * [CMSIS-Toolbox documentation](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/README.md)
+            * [embedded world 2024 CMSIS meeting presentation](/assets/other/20240409_CMSIS_Event_ew.pdf)
   - row: container_row
     sections:
       - format: title
@@ -106,7 +81,7 @@ flow:
         style: #
         text_content:
           text: |-
-            If you would like to support and contribute to the Open-CMSIS-Pack project, please contact [us here](mailto:contact@linaro.org).
+            If you want to get involved, [join](https://linaro-org.zoom.us/j/98302382714?pwd=SVdtS0ZGWlg1cXVBRU9JUkpNa21CUT09) our weekly Technical Project Meetings - Tuesdays 16:00 - 17:00 CET.
   - row: container_row
     style: #
     sections:
