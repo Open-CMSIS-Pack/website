@@ -11,4 +11,4 @@ flow:
 ---
 ### Get Involved
 
-If you would like to support and contribute to the Open-CMSIS-Pack project, please contact [us here](mailto:contact@linaro.org).
+If you would like to support and contribute to the Open-CMSIS-Pack project, please contact [us here](mailto:open-cmsis-pack@linaro.org).
