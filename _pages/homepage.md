@@ -69,6 +69,7 @@ flow:
             * [List of publicly available CMSIS-Packs](https://www.keil.arm.com/packs/)
             * [CMSIS-Toolbox documentation](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/README.md)
             * [embedded world 2024 CMSIS meeting presentation](/assets/other/20240409_CMSIS_Event_ew.pdf)
+            * Create scalable software webinar: [recording](https://armkeil.blob.core.windows.net/developer/Files/videos/CMSIS/20240611_CreateScalableSoftware.mp4), [presentation](https://armkeil.blob.core.windows.net/developer/Files/videos/CMSIS/20240611_CreateScalableSoftware.pdf)
   - row: container_row
     sections:
       - format: title
