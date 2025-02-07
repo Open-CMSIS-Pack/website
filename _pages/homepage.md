@@ -82,7 +82,7 @@ flow:
         style: #
         text_content:
           text: |-
-            If you want to get involved, [join](https://linaro-org.zoom.us/j/98302382714?pwd=SVdtS0ZGWlg1cXVBRU9JUkpNa21CUT09) our weekly Technical Project Meetings - Tuesdays 16:00 - 17:00 CET.
+            If you want to get involved, [join](https://linaro-org.zoom.us/j/92425995029?pwd=ds00bMVC1MuUX80rLzoNNj82SXs3Mn.1) our weekly Technical Project Meetings - Tuesdays 16:00 - 17:00 CET.
   - row: container_row
     style: #
     sections:
