@@ -67,7 +67,7 @@ flow:
             * [Open-CMSIS-Project page and meeting notes at Linaro](https://linaro.atlassian.net/wiki/spaces/CMSIS/overview)
             * [https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/](https://www.linaro.org/blog/arm-transfers-cmsis-pack-technology-to-linaro/)
             * [List of publicly available CMSIS-Packs](https://www.keil.arm.com/packs/)
-            * [CMSIS-Toolbox documentation](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/README.md)
+            * [CMSIS-Toolbox documentation](https://open-cmsis-pack.github.io/cmsis-toolbox/)
             * Create scalable software webinar: [recording](https://armkeil.blob.core.windows.net/developer/Files/videos/CMSIS/20240611_CreateScalableSoftware.mp4), [presentation](https://armkeil.blob.core.windows.net/developer/Files/videos/CMSIS/20240611_CreateScalableSoftware.pdf)
             * Create consistent DFPs and BSPs webinar, part 1: [recording](http://linaro.atlassian.net/wiki/spaces/CMSIS/pages/29847093264/Open-CMSIS-Pack+Technical+Meeting+2025-02-18#Meeting-Recording), [presentation](http://linaro.atlassian.net/wiki/spaces/CMSIS/pages/29847093264/Open-CMSIS-Pack+Technical+Meeting+2025-02-18#Slides)
             * Create consistent DFPs and BSPs webinar, part 2: [recording](https://linaro.atlassian.net/wiki/spaces/CMSIS/pages/29884907525/Open-CMSIS-Pack+Technical+Meeting+2025-03-04#Meeting-Recording), [presentation](https://linaro.atlassian.net/wiki/spaces/CMSIS/pages/29884907525/Open-CMSIS-Pack+Technical+Meeting+2025-03-04#Slides)
